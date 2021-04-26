@@ -1,0 +1,11 @@
+.index {
+  &__title {
+    font-size: 2rem;
+  }
+  &__wrapper {
+    display: flex;
+    flex: 0 0 1;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,33 @@
+.todo-card {
+  display: flex;
+  border-radius: 1em;
+  flex-direction: column;
+  background-color: #d9d9d9;
+  padding: 1em;
+
+  &:not(:first-child) {
+    margin-top: 1em;
+  }
+
+  &__title {
+    font-size: 1.2rem;
+  }
+
+  &__sub-title {
+    display: flex;
+    flex-direction: column;
+    &__owner {
+      font-size: 0.8rem;
+    }
+    &__time {
+      font-size: 0.6rem;
+    }
+  }
+
+  &__text {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    text-overflow: ellipsis;
+  }
+}

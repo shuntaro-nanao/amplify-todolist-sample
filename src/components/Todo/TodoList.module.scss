@@ -1,0 +1,49 @@
+.todo-list {
+  background-color: #656565;
+  padding: 0.3em;
+  border-radius: 0.3em;
+  width: 100%;
+  min-width: 200px;
+
+  &:not(:first-child) {
+    margin-left: 1em;
+  }
+  &__title {
+    display: flex;
+    flex: 0 0 1;
+    padding: 0.4em;
+
+    &__count {
+      background-color: #cacaca;
+      padding: 0 0.5em;
+      border-radius: 30%;
+      font-size: 1rem;
+      line-height: 2rem;
+      vertical-align: baseline;
+    }
+    &__status {
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: white;
+      width: 80%;
+    }
+    &__add {
+      background-color: #cacaca;
+      padding: 0 0.5em;
+      border-radius: 0.3rem;
+      &::after {
+        content: '+';
+        font-size: 1.5rem;
+        font-weight: 500;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__todos {
+    padding: 1em;
+    max-height: 75vh;
+    overflow-y: scroll;
+  }
+}
