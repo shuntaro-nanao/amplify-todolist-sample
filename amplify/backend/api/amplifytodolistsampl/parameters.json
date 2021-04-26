@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "amplifytodolistsampl",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authamplifytodolistsampl213cc0cf",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
