@@ -18,13 +18,17 @@ export const Layout: FC<LayoutProps> = ({
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
     </Head>
     <header>
-      <nav>
-        <Link href='/'>
+    <nav>
+        <Link href="/">
           <a>Home</a>
         </Link>{' '}
         |{' '}
-        <Link href='/about'>
+        <Link href="/about">
           <a>About</a>
+        </Link>{' '}
+        |{' '}
+        <Link href="/todos">
+          <a>Todo</a>
         </Link>
       </nav>
     </header>
