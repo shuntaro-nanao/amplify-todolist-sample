@@ -10,6 +10,17 @@
       "StackName": "amplify-amplifytodolistsampl-dev-182010",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:531067288915:stack/amplify-amplifytodolistsampl-dev-182010/9bbb6670-a670-11eb-a23a-0a1871fe28bb",
       "AmplifyAppId": "ds1o21h8g5pjz"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "ds1o21h8g5pjz",
+          "type": "cicd"
+        }
+      },
+      "auth": {
+        "amplifytodolistsampl213cc0cf": {}
+      }
     }
   }
 }
